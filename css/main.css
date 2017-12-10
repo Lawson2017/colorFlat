@@ -1,81 +1,92 @@
-body {
-	margin: 0;
-}
-.navbar-inverse {
-	text-align: center;
-	background-color: hsl(176, 53%, 45%);
-	border: none;
+.container-fluid {
+	padding: 0;
 }
 
-.navbar-nav {
-	display: inline-block;
-    float: none;
-    margin-right: 0;
-    margin-left: 10%;
-    color: black;
+.navBar div {
+	background-color: hsl(179, 70%, 74%);
+	padding-top: 5px;
+	padding-color: hsl(179, 70%, 74%);
+	font-family: 'Nunito', sans-serif;
 }
 
-.navbar-header {
-	display: inline-block;
-	float: none;
-	text-align: center;
-	padding-right: 80px;
-	margin-left: 0;
-	padding-left: 0;
+.logo {
+	float: right;
+	margin-top: 7px;
+}
+
+.row a {
 	color: black;
 }
 
-div.navbar-header {
+.greeter {
+	background-color: hsl(179, 70%, 74%);
+	margin-left: 0;
+	margin-right: 0;
+	font-family: 'Nunito', sans-serif;
+	color: #fff;
+	font-weight: bold;
 	padding-right: 0;
 }
 
-.fa-heart:before {
-    content: "\f004";
-    padding-right: 15px;
+div.col-6 {
+	padding-right: none;
 }
 
-.panel-defaul {
-	border: none;
+h1.greeterHead {
+    margin-top: 120px;
+    text-align: center;
+    margin-left: 300px;
+    font-family: 'Bungee', cursive;
 }
 
-.container-fluid {
-    padding-right: 0;
-    padding-left: 0;
-    margin-right: auto;
-    margin-left: 0;
-    border: none;
-}
-.panel-default {
-	position: relative;
+.greeter img {
+	height: 350px;
+	width: 350px;
+	margin-bottom: 10px;
 }
 
-.panel-heading {
-	border:none;
-	height: 400px;
+img.features {
+	height: 150px;
+	width: 150px;
 }
 
-h1.intro {
-	margin-top: 300px;
+.features h5 {
+	font-family: 'Bungee', cursive;
 }
 
-.panel-default>.panel-heading {
-    color: #333;
-    border-color: #ddd;
-    background-color: hsl(176, 53%, 45%);
+.features div {
+	text-align: center;
+	margin-top: 10px;
+	padding-color: hsl(179, 70%, 74%);
 }
 
-.navbar-inverse .navbar-brand {
-    color: #9d9d9d;
-    color: black;
+p.features {
+	font-size: .9em;
+	font-family: 'Nunito', sans-serif;
 }
 
-.navbar-inverse .navbar-nav>li>a {
-    color: black;
+.greeter.row {
+	margin-right: 0;
 }
 
-img.imac {
-	height: 300px;
-	margin-top: 100px;
-	width: 300px;
+.features div {
+	font-family: 'Nunito', sans-serif;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

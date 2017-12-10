@@ -1,6 +1,19 @@
+body {
+	font-family: 'Nunito', sans-serif;
+
+}
+
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
 .container-fluid {
 	padding: 0;
+	margin: 0;
 }
+
+/*NAVBAR*/
 
 .navBar div {
 	background-color: hsl(179, 70%, 74%);
@@ -11,12 +24,16 @@
 
 .logo {
 	float: right;
-	margin-top: 7px;
+	margin-top: 4px;
+	font-weight: bolder;
+	font-size: 1.5em;
 }
 
 .row a {
 	color: black;
 }
+
+/*GREETER*/
 
 .greeter {
 	background-color: hsl(179, 70%, 74%);
@@ -35,15 +52,19 @@ div.col-6 {
 h1.greeterHead {
     margin-top: 120px;
     text-align: center;
-    margin-left: 300px;
+    margin-left: 100px;
     font-family: 'Bungee', cursive;
 }
 
 .greeter img {
 	height: 350px;
 	width: 350px;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	margin-right: 80px
 }
+
+/*FEATURES*/
 
 img.features {
 	height: 150px;
@@ -71,6 +92,37 @@ p.features {
 
 .features div {
 	font-family: 'Nunito', sans-serif;
+}
+
+/*RECENT WORKS*/
+
+.recentWorks {
+	background-color: hsl(132, 46%, 72%);
+}
+
+.recentWorks h1{
+	margin-top: 45px;
+	text-align: center;
+}
+
+.recentWorks p {
+	text-align: center;
+}
+
+.recentWorks button {
+	float: right;
+	font-size: .7em;
+	margin: 7px 10px 0 0;
+}
+
+.samples img {
+	height: 160px;
+	width: 250px;
+}
+
+.samples div.col-4 {
+	text-align: center;
+	padding: 20px 0 20px 0;
 }
 
 
